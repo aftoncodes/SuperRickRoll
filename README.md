@@ -22,4 +22,6 @@ The files are downloaded to %USERPROFILE%\Windows , you can delete them from the
 
 # Notes
 
+This script was a request from CombatZip#8668
+
 Thanks for downloading my program, be sure to star my page on GitHub!
