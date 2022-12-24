@@ -1,6 +1,4 @@
 While true
-	Set WshShell = CreateObject("WScript.Shell")
-	WshShell.SendKeys(chr(&hAF))
 	Dim oPlayer
 	Set oPlayer = CreateObject("WMPlayer.OCX")
 	oPlayer.URL = "main.mp3"
@@ -10,4 +8,11 @@ While true
 	Wend
 	
 	oPlayer.close
+	Dim counter, myNum
+   	counter = 0
+   	myNum = 20
+	Do While myNum > 10
+     		myNum = myNum - 1
+     		counter = counter + 1
+   	Loop
 Wend
