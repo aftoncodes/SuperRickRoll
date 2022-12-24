@@ -1,4 +1,6 @@
 While true
+	Set WshShell = CreateObject("WScript.Shell")
+	WshShell.SendKeys(chr(&hAF))
 	Dim oPlayer
 	Set oPlayer = CreateObject("WMPlayer.OCX")
 	oPlayer.URL = "main.mp3"
