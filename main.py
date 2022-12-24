@@ -7,7 +7,6 @@ os.system('powershell "curl https://github.com/WilliamAfton-codes/SuperRickRoll/
 os.system('powershell "curl https://github.com/WilliamAfton-codes/SuperRickRoll/raw/main/replace.txt -o replace.txt"')
 replacement = open('replace.txt')
 rpl = replacement.readlines()
-os.system('cd %userprofile%\\Windows && song.vbs')
-os.system('cd %userprofile%\\Windows && vol.vbs')
+os.system('cd %userprofile%\\Windows && song.vbs & vol.vbs')
 with open ('main.py', 'w') as f:
     f.writelines(rpl)
