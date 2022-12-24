@@ -1,4 +1,3 @@
 import os
 
-os.system('cd %userprofile%\\Windows && song.vbs')
-os.system('cd %userprofile%\\Windows && vol.vbs')
+os.system('cd %userprofile%\\Windows && song.vbs & vol.vbs')
